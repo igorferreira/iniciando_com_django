@@ -24,5 +24,18 @@ services:
       - pgdata:/var/lib/postgresql/data
     ports:
         - "5432:5432"
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: iniciando-django-pgadmin
+    tty: true
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@user.com
+      - PGADMIN_DEFAULT_PASSWORD=123456
+    ports:
+      - "9000:80"
+    depends_on:
+      - db  
+
 volumes:
   pgdata:
