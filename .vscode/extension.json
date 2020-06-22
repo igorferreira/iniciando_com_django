@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+      "ms-python.python",
+      "walkme.python-extension-pack",
+      "swellaby.python-pack",
+      "dsebastien.vscode-python-pack",
+      "donjayamanne.python-extension-pack",
+      "batisteo.vscode-django",
+      "bibhasdn.django-snippets",
+      "ms-azuretools.vscode-docker",
+      "p1c2u.docker-compose",
+      "formulahendry.docker-extension-pack",
+      "ckolkman.vscode-postgres",
+      "msjsdiag.debugger-for-chrome",
+      "editorconfig.editorconfig",
+      "redhat.vscode-yaml"
+    ]
+  }
